@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Travel from "./Travel";
+import Travels from "./Travels";
 
 class App extends Component {
   render() {
@@ -12,18 +12,7 @@ class App extends Component {
           <h1 className="App-title">My travels</h1>
         </header>
         <p className="App-intro">
-        <Travel
-          photo="MontFuji.jpg"
-          destination="Fuji"
-          country="Japon"
-          distance="10000km"
-        />
-         <Travel
-          photo="SongDoong-Cave-2.jpg"
-          destination="Son Doong Cave"
-          country="VIet Nam"
-          distance="10000km"
-        />
+        <Travels/>
         </p>
       </div>
     );
